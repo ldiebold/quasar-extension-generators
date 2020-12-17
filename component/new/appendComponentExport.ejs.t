@@ -1,6 +1,6 @@
 ---
 inject: true
-to: <%= type %>-components/ui/src/index.js
+to: <%= type %>/ui/src/index.js
 after: (export {)
 ---
-<%= Name %>,
+  <%= Name %>,

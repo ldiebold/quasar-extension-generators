@@ -1,5 +1,5 @@
 ---
-to: <%= type %>-components/ui/src/components/<%= name %>.vue
+to: <%= type %>/ui/src/components/<%= name %>.vue
 ---
 <template>
   <div><%= name %></div>

@@ -1,5 +1,5 @@
 ---
-to: <%= type %>-components/ui/dev/src/pages/000-<%= name %>.vue
+to: <%= type %>/ui/dev/src/pages/000-<%= name %>.vue
 ---
 <template>
   <q-page padding>
@@ -10,11 +10,15 @@ to: <%= type %>-components/ui/dev/src/pages/000-<%= name %>.vue
 </template>
 
 <script>
-  import { <%= Name %> } from '../../../src'
+import { <%= Name %> } from '../../../src'
 
-  export default {
-    components: {
+export default {
+  components: {
     <%= Name %>
+  },
+
+  mounted () {
+    // this.$M
   },
 
   data() {
