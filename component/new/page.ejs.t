@@ -1,5 +1,5 @@
 ---
-to: <%= type %>/ui/dev/src/pages/000-<%= name %>.vue
+to: <%= type %>/ui/dev/src/pages/Test<%= name %>.vue
 ---
 <template>
   <q-page padding>
