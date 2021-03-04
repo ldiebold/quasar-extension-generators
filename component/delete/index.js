@@ -37,7 +37,7 @@ module.exports = {
       // Perform Deletion
       .then(({ componentName }) => {
         const componentFilePath = path.join(directoryPath, `./${extensionDirectory}/ui/src/components/${componentName}.vue`)
-        const componentTestFilePath = path.join(directoryPath, `./${extensionDirectory}/ui/src/components/Test${componentName}.vue`)
+        const componentTestFilePath = path.join(directoryPath, `./${extensionDirectory}/ui/dev/src/pages/Test${componentName}.vue`)
         const indexFilePath = path.join(directoryPath, `./${extensionDirectory}/ui/src/index.js`)
         // Delete component
         if (fs.existsSync(componentFilePath)) {
